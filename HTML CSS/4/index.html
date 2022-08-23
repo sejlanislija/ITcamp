@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORME</title>
+  </head>
+  <body>
+    <h1 align="center">DANAS RADIMO FORME</h1>
+    <form action="" align="center">
+      <label for="username">Unesite vas username:</label>
+      <input type="text" name="username" id="username" placeholder="username" />
+      <br /><br />
+
+      <label for="email">Unesite vasu email adresu:</label>
+      <input type="email" name="email" id="email" placeholder="email" />
+      <br /><br />
+
+      <label for="pass">Unesite lozinku</label>
+      <input
+        type="text"
+        name="password"
+        id="password"
+        required
+        placeholder="password"
+      />
+      <br /><br />
+      <label for="age">Unesite godine starosti:</label>
+      <input
+        type="number"
+        name="age"
+        id="age"
+        min="15"
+        max="120"
+        step="3"
+      /><br /><br />
+      <label for="birthdate">Unesite datum rodjenja:</label>
+      <input
+        type="date"
+        name="birhtdate"
+        id="birhtdate"
+        min="1950-01-01"
+        max="2025-02-02"
+      /><br /><br />
+      Omiljeno voce: <br />
+      <label for="banana">Banana</label>
+      <input type="checkbox" name="banana" id="banana" /> <br />
+      Pol: <br />
+      <label for="female">F</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      /><br /><br />
+      <label for="male">M</label>
+      <input type="radio" name="gender" id="male" value="male" /><br /><br />
+      <label for="note">NAPOMENA</label>
+      <textarea name="note" id="note"></textarea><br />
+      <label for="file">Unesite zeljenu datoteku</label>
+      <input type="file" name="datotela" id="file" /> <br /><br />
+      <label for="phone">Unesite broj telefona</label>
+      <input type="tel" name="phone" id="phone" /><br /><br />
+      <label for="color">Unesite omiljenu boju</label>
+      <input type="color" name="color" id="color" /><br /><br />
+      <label for="eyecolor">Unesite boju ociju</label>
+      <select name"eyecolor" id="eyecolor">
+      <option value="Zelena">Zelena</option>
+      <option value="Crna">Crna</option>
+      <option value="Plava">Plava</option>
+      <option value="Braon">Braon</option>
+
+      <button type="reset">RESET</button>
+      <button type="submit">SUBMIT</button>
+    </form>
+  </body>
+</html>

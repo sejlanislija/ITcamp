@@ -1,0 +1,14 @@
+.main {
+  width: 500px;
+  height: 400px;
+  background-color: rgb(185, 255, 0);
+  overflow: auto;
+}
+.main h2 {
+  color: #fa0000;
+}
+.main p {
+  color: darkblue;
+  text-align: center;
+  font-size: 22px;
+}

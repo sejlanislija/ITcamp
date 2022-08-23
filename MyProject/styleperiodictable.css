@@ -1,0 +1,104 @@
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: black;
+}
+
+.myDIV {
+  width: 150px;
+  height: 160px;
+  border: 3px solid rgb(5, 5, 182, 0.788);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 20px 30px 40px;
+  background-color: rgba(5, 5, 182, 0.788);
+}
+
+.first {
+  text-align: center;
+  margin: -10px;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.letterh {
+  text-align: 1;
+  margin: -15px;
+  font-size: 120px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.element {
+  text-align: center;
+  margin: 15px;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.hide {
+  width: 250px;
+  height: 230px;
+  border: 3px solid rgba(214, 14, 14, 0.788);
+  font-size: 16px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.myDIV img:hover {
+  content: url(./Hydrogen\ Atom\ -.jpg);
+}
+.heliumhide {
+  display: none;
+}
+
+.myDIVhelium:hover + .heliumhide {
+  display: block;
+  color: black;
+}
+
+.myDIVhelium {
+  width: 150px;
+  height: 160px;
+  border: 3px solid rgb(5, 5, 182, 0.788);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 20px 30px 40px;
+  background-color: rgba(5, 5, 182, 0.788);
+}
+
+.first {
+  text-align: center;
+  margin: -10px;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.letterh {
+  text-align: 1;
+  margin: -15px;
+  font-size: 120px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.element {
+  text-align: center;
+  margin: 15px;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.heliumhide {
+  width: 250px;
+  height: 230px;
+  border: 3px solid rgba(214, 14, 14, 0.788);
+  font-size: 16px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.myDIVhelium img:hover {
+  content: url(./Hydrogen\ Atom\ -.jpg);
+}

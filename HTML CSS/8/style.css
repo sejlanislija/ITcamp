@@ -1,0 +1,45 @@
+.main {
+  margin: 20px auto;
+  width: 400px;
+  height: 600px;
+  background-color: rgba(255, 255, 0, 0.479);
+  border-radius: 20px;
+  border: 1px solid blue;
+  display: inline-block;
+  padding: 20px;
+}
+.main img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 15px;
+}
+h3 {
+  margin: 25px;
+  text-align: center;
+}
+.main p {
+  margin: 15px;
+  text-align: justify;
+  text-indent: 25px;
+  text-align-last: right;
+}
+.main img:hover {
+  content: url(./Crows.png);
+}
+.main p:hover {
+  background-color: rgba(137, 43, 226, 0.829);
+  color: rgba(139, 0, 139, 0.815);
+  transition: 1s ease-in-out;
+}
+.lorem {
+  width: 200px;
+  display: inline-block;
+}

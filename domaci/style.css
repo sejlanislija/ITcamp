@@ -1,0 +1,33 @@
+.main {
+  width: 400px;
+  height: 600px;
+  margin: 20px auto;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px black;
+  text-align: justify;
+}
+
+.textpanda {
+  padding: 5px 5px;
+  background-color: rgb(220, 236, 245);
+  border-radius: 20px;
+}
+.textpanda h1,
+h2 {
+  text-align: center;
+  margin: 0px;
+}
+.main h1 {
+  margin-top: 25px;
+}
+.textpanda p {
+  margin: 30px 0px;
+  text-indent: 25px;
+  text-align-last: right;
+}
+.main img {
+  width: 400px;
+  height: 40%;
+  border-radius: 20px 20px 0px 0px;
+}
