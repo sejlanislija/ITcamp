@@ -58,7 +58,10 @@ kao sto su sirina,visina,margina,padding itd*/
     margin: auto;
     width: 600px;
     height: 500px;
-    background-image: url(./city.jpg);
+    background-image: url(./city.jpg),url(./star.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
+    /*background-size:100% 50%; /*prva vredost se odosi a siriu,druga a visiu*/
+    /*jeda vredost prestavlja siriu*/
+    
 }
