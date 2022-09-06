@@ -10,7 +10,38 @@ header {
 .img {
   width: 20%;
   height: 90%;
+  margin-left: 3%;
+  margin-top: 0.5%;
 }
 .links {
   display: inline-block;
+  margin
+}
+
+.links a {
+  font-size: 1.5rem;
+  text-decoration:none;
+  color:red;
+  padding-right: 0.7rem;
+  text-transform: uppercase;
+  cursor:pointer;
+  
+}
+
+.links a:hover {
+padding: 0.5rem;
+background-color: rgba(0, 102, 255, 0.747);
+border-radius: 2px;
+
+}
+.links a:visited{
+   padding: 0.5rem;
+  background-color: rgb(239, 243, 9);
+  border-radius: 2px;
+}
+.links a:active {
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+
 }

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 50%;
+  height: 60vh;
+  float: left;
+  margin-right: 1rem;
+}
+p {
+}
+
+.first {
+  width: 40%;
+  height: 55vh;
+  background-color: rgb(255, 127, 0.5);
+  clear: both;
+  float: left;
+}
+
+.second {
+  width: 40%;
+  height: 75vh;
+  background-color: rgb(221, 20, 20);
+
+  float: right;
+}
