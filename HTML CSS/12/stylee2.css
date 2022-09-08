@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.425);
 }
 header {
   width: 100vw;
@@ -43,5 +44,36 @@ border-radius: 2px;
   padding: 0.5rem;
   background-color: #fff;
   border-radius: 10px;
+
+}
+.first{
+  float: left;
+  width: 50%;
+  height: 50%;
+  margin-top: 150px;
+  box-shadow: #fff,10px;
+  border-radius:20px ;
+  margin-left: 10%;
+}
+.second{
+  display: block;
+  float: right;
+  clear: both;
+  width: 50%;
+  height: 50%;
+  background-color:#fff;
+  box-shadow: #000,500px;
+  border-radius:10px ;
+  margin-top: -150px;
+  }
+
+  .first h1{
+    color: blue;
+    font-size: 40px;
+  }
+.second input{
+  background-color: rgba(20, 207, 220, 0.288);
+  margin: auto;
+  
 
 }
