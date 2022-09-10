@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ms Madi", cursive;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.main {
+  margin: 2rem auto;
+  width: 90%;
+  height: 200vh;
+  background-color: #4169e1;
+  position: relative;
+  /*parent uvek pozicija relative*/
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  /*position: static; default vrednost*/
+  position: relative;
+  /*dodatno nam omogucava da pomeramo elemente sa svi strana u odnosu na parent element,a prvobitna pozicija ostaje rezervisana (nece se automatski naci sledeci element)
+ */
+  top: 0px;
+  left: 50%;
+  /*bottom: 30px;
+  right: 60px;*/
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(190, 10, 40);
+  position: absolute;
+  /*absolute  ne cuva prostor na kom se nalazio tu ce se automatski naci element ispod onog koga je bio pozicioniran */
+  /*pomera se u odnosu na parent element */
+  top: 0px;
+  right: 0;
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(154, 238, 43);
+  position: fixed;
+  /*fixed ne cuva prostor na kom se nalazio tu ce se automatski naci element ispod onog koga je bio pozicioniran */
+  /*pomera se u odnosu na celu stranicu */
+  top: 250px;
+  left: 100vh;
+}
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(55, 43, 226);
+  position: sticky;
+  /*sticky cuva prostor na kome se nalazio i nece se naci novi element,dobijamo mogocnost pomeranja elementa u trenutno postavljeni element*/
+  left: 100px;
+  top: 0px;
+  z-index: 100;
+}
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(43, 226, 104);
+  position: relative;
+  z-index: 200;
+}

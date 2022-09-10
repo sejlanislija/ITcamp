@@ -8,6 +8,7 @@ header {
   width: 100vw;
   height: 20vw;
   background-color: indianred;
+  position: relative;
 }
 .img {
   width: 20%;
@@ -18,6 +19,8 @@ header {
 .links {
   display: inline-block;
   margin
+  position:absolute;
+  bottom:3rem;
 }
 
 .links a {
