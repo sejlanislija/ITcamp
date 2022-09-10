@@ -1,0 +1,35 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ms Madi", cursive;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.box {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 3rem;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border: 1px solid rgb(59, 58, 58, 0.46);
+  border-radius: 20px;
+  box-shadow: -10px 5px 10px gray;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.box h1 {
+  text-align: center;
+  color: crimson;
+}
+.box:hover {
+  top: -50px;
+}
