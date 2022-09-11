@@ -1,8 +1,13 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  background: #efefef;
+  text-align: center;
   font-family: sans-serif;
+  -webkit-font-smoothing: grayscale;
+}
+p {
+  opacity: 0.55;
 }
 .wrapper {
   height: 200px;
@@ -29,16 +34,17 @@ body {
   width: 100px;
   border-radius: 50%;
   background-image: linear-gradient(to left, #fff, #fff 50%, #000 50%, #000);
-  animation-direction: reverse;
+  animation: roll 4s linear infinite;
+  animation-duration: reverse;
 }
 .creative:before {
   content: "";
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translatex(-50%);
   background: #fff;
-  border: 18px solid #fff;
+  border: 18px solid #000;
   border-radius: 50%;
   width: 14px;
   height: 14px;
@@ -48,9 +54,9 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translatex(-50%);
   background: #000;
-  border: 18px solid #000;
+  border: 25px solid #fff;
   border-radius: 50%;
   width: 14px;
   height: 14px;
