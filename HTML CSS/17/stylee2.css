@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bungee Spice", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ms Madi", cursive;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+}
+.main {
+  margin: auto;
+  width: 75%;
+  height: 550px;
+  background-color: cyan;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*flex-wrap: nowrap; defoltna vrednost*/
+  /*flex-wrap: wrap;*/
+}
+/*order svojstvo je omoguceno u child kontejneru,ali je neophodno podesiti order svakom child kontejneru kako bi se primenilo redjanje na pravi nacin*/
+.box1 {
+  flex-basis: 150px;
+  height: 150px;
+  background-color: rgb(52, 11, 128);
+  /* order: 3;*/
+}
+.box2 {
+  flex-basis: 150px;
+  height: 150px;
+  background-color: rgb(12, 9, 175);
+  /* order: 1;*/
+}
+.box3 {
+  flex-basis: 150px;
+  height: 150px;
+  background-color: rgb(7, 206, 67);
+  overflow: scroll;
+  /*order: 4;*/
+}
+.box4 {
+  flex-basis: 150px;
+  height: 150px;
+  background-color: rgb(162, 233, 31);
+  /* order: 2;*/
+}

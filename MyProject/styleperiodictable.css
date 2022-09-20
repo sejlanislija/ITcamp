@@ -3,13 +3,12 @@
   box-sizing: border-box;
 }
 .box {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   float: left;
   border: 3px solid blue;
   border-radius: 20px;
 }
-p number {
-  font-size: 49px;
+p {
   text-align: center;
 }

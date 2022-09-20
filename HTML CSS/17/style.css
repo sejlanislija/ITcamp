@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  margin: auto;
+  width: 75%;
+  height: 550px;
+  background-color: cyan;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*Horizontalno poravnjanje
+justify-content:start;difoltna vrednost
+justify-content:flex-start isto sto i start
+justify-content:center
+justify-content:end
+justify-content:space-between
+justify-content:space-around
+justify-content:spave-evenly*/
+
+/*Vertikalno poravnjanje
+align-item:flex-start defoltna vrednost
+align-item:center
+align-item:end*/
+
+.box1 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  align-self: flex-start;
+}
+.box2 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(124, 202, 21);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box3 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(52, 11, 128);
+  align-self: flex-end;
+}
+.links {
+  display: flex;
+  gap: 3rem;
+  list-style-type: none;
+}
+.links a {
+  text-decoration: none;
+  color: #00008b;
+  font-size: larger;
+}

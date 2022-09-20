@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 400px;
+  height: 400px;
+  background-color: chartreuse;
+  margin: auto;
+}
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: crimson;
+}
+.main:hover .child {
+  animation: top-to-bottom 1s ease-in-out forwards 3 alternate;
+  /*animation-name:top-to-bottom*/
+  /*animation-duration:1s*/
+  /*animation-timing-function:easy-in-out*/
+  /*animation-fill-mode:forwards*/
+  /*animation-iteration-count:4*/
+  /*animation-direction:alternate*/
+}
+
+@keyframes top-to-bottom {
+  0% {
+    transform: translateY(0px);
+  }
+  33% {
+    transform: translateX(250px);
+    background-color: #006400;
+  }
+  66% {
+    transform: translateY(250px);
+    background-color: #00640025;
+  }
+  100% {
+    transform: translateX(250px) translateY(250px);
+    background-color: #000;
+  }
+}

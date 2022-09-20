@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+header {
+  margin: auto;
+  height: 100px;
+  background-color: rgb(12, 12, 143);
+}
+.links {
+  display: flex;
+  position: relative;
+  left: 50%;
+  top: 15px;
+  font-size: 20px;
+  gap: 3rem;
+  list-style-type: none;
+}
+.links a {
+  color: #ffff;
+  text-decoration: none;
+}
+header h2 {
+  position: relative;
+  left: 15%;
+  top: 3rem;
+  font-size: 24px;
+}
+.main {
+  display: flex;
+  background-color: #ffff;
+  flex-direction: column;
+}
+.box1 {
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(135, 135, 175);
+  box-shadow: 20px;
+  position: relative;
+  top: 2rem;
+  left: 5rem;
+}
+.box2 {
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(135, 135, 175);
+  box-shadow: 20px;
+  position: relative;
+  top: -10rem;
+  left: 22rem;
+}
+.box3 {
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(135, 135, 175);
+  box-shadow: 20px;
+  position: relative;
+  top: -10rem;
+  left: 5rem;
+}
+.box4 {
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(135, 135, 175);
+  box-shadow: 20px;
+  position: absolute;
+  top: 30rem;
+  left: 22rem;
+}
+.main p {
+  text-align: center;
+  padding: 8px;
+}
+.main h3 {
+  text-align: center;
+  padding: 15px;
+}
+.main img {
+  position: relative;
+  top: -40rem;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+}
+
+.links button {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  color: blue;
+  background-color: #ffff;
+  border-radius: 15px;
+  cursor: pointer;
+}

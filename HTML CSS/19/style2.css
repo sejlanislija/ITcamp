@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 400px;
+  height: 400px;
+  background-color: chartreuse;
+  margin: auto;
+}
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: crimson;
+  transition: transform 2s cubic-bezier(0, 1.03, 1, -1.82) 1s;
+  /*transition-property:transform;*/
+  /*transition-duration: 0.5s;*/
+  /*transition-timing-function: cubic-bezier(0, 1.03, 1, -1.82);*/
+  /*transition-delay: 1s;*/
+}
+.main:hover .child {
+  transform: translateY(250px);
+  background-color: blue;
+}

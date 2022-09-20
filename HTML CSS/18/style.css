@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+}
+.main {
+  margin: auto;
+  width: 75%;
+  height: 550px;
+  background-color: cyan;
+  display: flex;
+}
+/*pomocu flex-grow svojstva zauzima se celokupna sirina kontejnera*/
+/*definisanje nekog child elementa bi zapravo prestavljalo minimalnu sirinu tog elementa*/
+.box1 {
+  flex-grow: 1;
+  /*flex-shrink: 4;*/
+  flex-basis: 150px;
+  height: 250px;
+  background-color: brown;
+}
+.box2 {
+  flex-grow: 1;
+  flex-basis: 150px;
+  height: 250px;
+  background-color: rgb(124, 202, 21);
+  display: flex;
+}
+.box3 {
+  flex-grow: 1;
+  height: 250px;
+  background-color: rgb(52, 11, 128);
+}

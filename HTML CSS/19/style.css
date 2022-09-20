@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 400px;
+  height: 400px;
+  background-color: chartreuse;
+  margin: auto;
+}
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: crimson;
+}
+.main:hover .child {
+  transform: translateX(250px) translateY(250px);
+}
