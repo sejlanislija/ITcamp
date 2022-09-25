@@ -14,5 +14,5 @@
   background-color: crimson;
 }
 .main:hover .child {
-  transform: translateX(250px) translateY(250px);
+  transform: translateX(250px);
 }
