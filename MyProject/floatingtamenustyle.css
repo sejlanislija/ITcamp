@@ -85,3 +85,6 @@ input:checked + label {
 #user:checked ~ div div .active {
   left: 84.5%;
 }
+#icon {
+  font-size: 50px;
+}
