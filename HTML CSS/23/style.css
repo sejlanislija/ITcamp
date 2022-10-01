@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+body {
+  font-family: "Alkalami", serif;
+}
+#car {
+  font-size: 3rem;
+  color: red;
+}
+
+#map {
+  font-size: 1.5rem;
+  color: blue;
+}
+.main p {
+  line-height: 2rem;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-weight: bold;
+}
